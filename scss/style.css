@@ -1,0 +1,163 @@
+.body {
+  background-color: #c5e4e7;
+}
+
+.body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.body .header .title {
+  font-weight: 400;
+  font-family: [Space Mono];
+  color: #7f9c9f;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.body .sectionCalc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.body .sectionCalc .sectionCalc2 {
+  background-color: white;
+  border-radius: 15px;
+  border-color: white;
+  width: 60%;
+  height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.body .sectionCalc .sectionCalc2 .user {
+  background-color: white;
+  border-radius: 15px;
+  width: 40%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.body .sectionCalc .sectionCalc2 .user h3 {
+  color: #5e7a7d;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.body .sectionCalc .sectionCalc2 .user .btnUser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.body .sectionCalc .sectionCalc2 .user .btnUser #btnCalcular {
+  background-color: #00494d;
+  font-family: [Space Mono];
+  font-weight: 700;
+  border-radius: 5px;
+  width: 80%;
+  color: ghostwhite;
+}
+
+.body .sectionCalc .sectionCalc2 .show {
+  background-color: #00494d;
+  border-radius: 15px;
+  width: 40%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.body .sectionCalc .sectionCalc2 .show #bill {
+  color: #26c0ab;
+  font-size: 24px;
+  font-family: [Space Mono];
+}
+
+.body .sectionCalc .sectionCalc2 .show #people {
+  color: #26c0ab;
+  font-size: 24px;
+  font-family: [Space Mono];
+}
+
+.body .sectionCalc .sectionCalc2 .show .amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.body .sectionCalc .sectionCalc2 .show .amount .text {
+  color: white;
+  font-size: 12px;
+}
+
+.body .sectionCalc .sectionCalc2 .show .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.body .sectionCalc .sectionCalc2 .show .total .text {
+  color: white;
+  font-size: 12px;
+}
+
+.body .sectionCalc .sectionCalc2 .show .btn2Div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.body .sectionCalc .sectionCalc2 .show .btn2Div #btn2 {
+  background-color: #26c0ab;
+  font-family: [Space Mono];
+  font-weight: 700;
+  border-radius: 5px;
+  width: 80%;
+  color: #00494d;
+}
+/*# sourceMappingURL=style.css.map */
